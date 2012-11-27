@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Origin:</b>
+  <%= @route.origin %>
+</p>
+
+<p>
+  <b>Destination:</b>
+  <%= @route.destination %>
+</p>
+
+
+<%= link_to 'Edit', edit_route_path(@route) %> |
+<%= link_to 'Back', routes_path %>

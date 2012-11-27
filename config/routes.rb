@@ -1,4 +1,10 @@
 Traffik::Application.routes.draw do
+  resources :schedules
+
+
+  resources :routes
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
